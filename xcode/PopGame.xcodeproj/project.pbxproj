@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		01A3C196191D09410056ABA8 /* Explosion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A3C194191D09410056ABA8 /* Explosion.cpp */; };
+		01A8100919176C1D00D6B632 /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A8100519176C1D00D6B632 /* Image.cpp */; };
+		01A8100A19176C1D00D6B632 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A8100719176C1D00D6B632 /* Sprite.cpp */; };
+		01A8100D19176D7900D6B632 /* TextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A8100B19176D7900D6B632 /* TextureManager.cpp */; };
+		01A8101119176E4800D6B632 /* TouchPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A8100F19176E4800D6B632 /* TouchPoint.cpp */; };
+		01A810161919FD6500D6B632 /* GroundHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A810141919FD6500D6B632 /* GroundHolder.cpp */; };
+		01A810191919FE2E00D6B632 /* GroundTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A810171919FE2E00D6B632 /* GroundTile.cpp */; };
+		01A8101C191A27A200D6B632 /* Image2hD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A8101A191A27A200D6B632 /* Image2hD.cpp */; };
+		01A81023191A57E800D6B632 /* Shootable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A81021191A57E800D6B632 /* Shootable.cpp */; };
+		01A81026191A57F700D6B632 /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A81024191A57F700D6B632 /* Hero.cpp */; };
+		01A81029191A580C00D6B632 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A81027191A580C00D6B632 /* Enemy.cpp */; };
+		01A8102C191A773900D6B632 /* BulletHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A8102A191A773900D6B632 /* BulletHandler.cpp */; };
+		01A8102F191A7B3C00D6B632 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A8102D191A7B3C00D6B632 /* Bullet.cpp */; };
+		01A81032191AAB2200D6B632 /* GroundBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A81030191AAB2200D6B632 /* GroundBase.cpp */; };
+		3BEECA5A89014A3096972254 /* PopGameApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B428D5C4AA7A438C8EBA23E0 /* PopGameApp.cpp */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		54405A4A506F4DA78E666C44 /* WebSocketServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5FF53F45D7E46AB84559C6E /* WebSocketServer.cpp */; };
+		7A2B74EF1FDC4087A41F3EC8 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 968D611E984E4F8695084CAE /* CinderApp.icns */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D9D6C9591A244093BF9645E1 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93F8A35F8C034AA69343F65E /* sha1.cpp */; };
+		E28635DA0CD044269DEFA171 /* WebSocketClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE88F55F1FD4460EB7C3F09E /* WebSocketClient.cpp */; };
+		E6D43678DEB844568793543C /* WebSocketConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50FCE8B9273D4E1293DC92AE /* WebSocketConnection.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		01A3C194191D09410056ABA8 /* Explosion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Explosion.cpp; sourceTree = "<group>"; };
+		01A3C195191D09410056ABA8 /* Explosion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
+		01A8100519176C1D00D6B632 /* Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Image.cpp; sourceTree = "<group>"; };
+		01A8100619176C1D00D6B632 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		01A8100719176C1D00D6B632 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
+		01A8100819176C1D00D6B632 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		01A8100B19176D7900D6B632 /* TextureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureManager.cpp; sourceTree = "<group>"; };
+		01A8100C19176D7900D6B632 /* TextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureManager.h; sourceTree = "<group>"; };
+		01A8100E19176E4800D6B632 /* TouchEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchEvent.h; sourceTree = "<group>"; };
+		01A8100F19176E4800D6B632 /* TouchPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TouchPoint.cpp; sourceTree = "<group>"; };
+		01A8101019176E4800D6B632 /* TouchPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchPoint.h; sourceTree = "<group>"; };
+		01A810141919FD6500D6B632 /* GroundHolder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GroundHolder.cpp; sourceTree = "<group>"; };
+		01A810151919FD6500D6B632 /* GroundHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundHolder.h; sourceTree = "<group>"; };
+		01A810171919FE2E00D6B632 /* GroundTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GroundTile.cpp; sourceTree = "<group>"; };
+		01A810181919FE2E00D6B632 /* GroundTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundTile.h; sourceTree = "<group>"; };
+		01A8101A191A27A200D6B632 /* Image2hD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Image2hD.cpp; sourceTree = "<group>"; };
+		01A8101B191A27A200D6B632 /* Image2hD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image2hD.h; sourceTree = "<group>"; };
+		01A81021191A57E800D6B632 /* Shootable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shootable.cpp; sourceTree = "<group>"; };
+		01A81022191A57E800D6B632 /* Shootable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shootable.h; sourceTree = "<group>"; };
+		01A81024191A57F700D6B632 /* Hero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hero.cpp; sourceTree = "<group>"; };
+		01A81025191A57F700D6B632 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		01A81027191A580C00D6B632 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		01A81028191A580C00D6B632 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		01A8102A191A773900D6B632 /* BulletHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletHandler.cpp; sourceTree = "<group>"; };
+		01A8102B191A773900D6B632 /* BulletHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletHandler.h; sourceTree = "<group>"; };
+		01A8102D191A7B3C00D6B632 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
+		01A8102E191A7B3C00D6B632 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		01A81030191AAB2200D6B632 /* GroundBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GroundBase.cpp; sourceTree = "<group>"; };
+		01A81031191AAB2200D6B632 /* GroundBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundBase.h; sourceTree = "<group>"; };
+		0AC436EDD7EE47869F751701 /* close.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = close.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/close.hpp"; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		18C08BB2052841F09873336B /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = base64.h; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/base64/base64.h"; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3A4D66F043454C599767F0B1 /* frame.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = frame.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/frame.hpp"; sourceTree = "<group>"; };
+		3D21BE89D82443D6B3ED6F83 /* utilities.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = utilities.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/utilities.hpp"; sourceTree = "<group>"; };
+		43F27C5B8EC54E5DB3F4DAE3 /* connection_base.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = connection_base.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/connection_base.hpp"; sourceTree = "<group>"; };
+		462BAEACD7314DAEB4013D59 /* sha1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/sha1/sha1.h"; sourceTree = "<group>"; };
+		4BDD4D81BBFD47B488D8AF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FCE8B9273D4E1293DC92AE /* WebSocketConnection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = WebSocketConnection.cpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/WebSocketConnection.cpp"; sourceTree = "<group>"; };
+		51B718430A8C4A699944D79B /* error_container.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = error_container.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/error_container.hpp"; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		53C86E3866A44D8590FDD0F9 /* endpoint_base.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = endpoint_base.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/endpoint_base.hpp"; sourceTree = "<group>"; };
+		7F386431CF2445DCA1656246 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* PopGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F8A35F8C034AA69343F65E /* sha1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = sha1.cpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/sha1/sha1.cpp"; sourceTree = "<group>"; };
+		95BECA9117E641E2A90DD04E /* common.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = common.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/common.hpp"; sourceTree = "<group>"; };
+		95D4965E1BD941A3B96CCBD2 /* WebSocketClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WebSocketClient.h; path = "../../../blocks/Cinder-WebSocketPP-master/src/WebSocketClient.h"; sourceTree = "<group>"; };
+		968D611E984E4F8695084CAE /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		ABC78D4E49F245E185AE3C49 /* utf8_validator.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = utf8_validator.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/utf8_validator.hpp"; sourceTree = "<group>"; };
+		AE908138BDE34204A3134907 /* connection.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = connection.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/connection.hpp"; sourceTree = "<group>"; };
+		B27FFD4C6D2B40798759E348 /* WebSocketServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WebSocketServer.h; path = "../../../blocks/Cinder-WebSocketPP-master/src/WebSocketServer.h"; sourceTree = "<group>"; };
+		B428D5C4AA7A438C8EBA23E0 /* PopGameApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = PopGameApp.cpp; path = ../src/PopGameApp.cpp; sourceTree = "<group>"; };
+		B567CE28E2E448D7A8521718 /* WebSocketConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WebSocketConnection.h; path = "../../../blocks/Cinder-WebSocketPP-master/src/WebSocketConnection.h"; sourceTree = "<group>"; };
+		C5FF53F45D7E46AB84559C6E /* WebSocketServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = WebSocketServer.cpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/WebSocketServer.cpp"; sourceTree = "<group>"; };
+		C8EA68AAB81A4897B0830611 /* server.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = server.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/server.hpp"; sourceTree = "<group>"; };
+		CB0D73C8EC5441AAB8ED2071 /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/md5/md5.h"; sourceTree = "<group>"; };
+		D7E2C0289C5D4E5AB0C79AB7 /* uri.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = uri.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/uri.hpp"; sourceTree = "<group>"; };
+		DE88F55F1FD4460EB7C3F09E /* WebSocketClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = WebSocketClient.cpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/WebSocketClient.cpp"; sourceTree = "<group>"; };
+		E339F5DE74FF460A89C805E4 /* PopGame_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = PopGame_Prefix.pch; sourceTree = "<group>"; };
+		E7047FC99A2A4DB7B7516A98 /* endpoint.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = endpoint.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/endpoint.hpp"; sourceTree = "<group>"; };
+		FC8BE0C496EB476EBB7414A7 /* error.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = error.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/error.hpp"; sourceTree = "<group>"; };
+		FCD8401230D444C886EF4D53 /* client.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = client.hpp; path = "../../../blocks/Cinder-WebSocketPP-master/src/websocketpp/client.hpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A8100419176BC300D6B632 /* displaylist */ = {
+			isa = PBXGroup;
+			children = (
+				01A8100719176C1D00D6B632 /* Sprite.cpp */,
+				01A8100E19176E4800D6B632 /* TouchEvent.h */,
+				01A8100F19176E4800D6B632 /* TouchPoint.cpp */,
+				01A8101019176E4800D6B632 /* TouchPoint.h */,
+				01A8100B19176D7900D6B632 /* TextureManager.cpp */,
+				01A8100C19176D7900D6B632 /* TextureManager.h */,
+				01A8100519176C1D00D6B632 /* Image.cpp */,
+				01A8100619176C1D00D6B632 /* Image.h */,
+				01A8101A191A27A200D6B632 /* Image2hD.cpp */,
+				01A8100819176C1D00D6B632 /* Sprite.h */,
+				01A8101B191A27A200D6B632 /* Image2hD.h */,
+			);
+			name = displaylist;
+			sourceTree = "<group>";
+		};
+		01A810121919FD1400D6B632 /* ground */ = {
+			isa = PBXGroup;
+			children = (
+				01A81030191AAB2200D6B632 /* GroundBase.cpp */,
+				01A81031191AAB2200D6B632 /* GroundBase.h */,
+				01A810141919FD6500D6B632 /* GroundHolder.cpp */,
+				01A810151919FD6500D6B632 /* GroundHolder.h */,
+				01A810171919FE2E00D6B632 /* GroundTile.cpp */,
+				01A810181919FE2E00D6B632 /* GroundTile.h */,
+			);
+			name = ground;
+			sourceTree = "<group>";
+		};
+		01A81020191A57B200D6B632 /* flyingStuff */ = {
+			isa = PBXGroup;
+			children = (
+				01A81021191A57E800D6B632 /* Shootable.cpp */,
+				01A81022191A57E800D6B632 /* Shootable.h */,
+				01A81024191A57F700D6B632 /* Hero.cpp */,
+				01A81025191A57F700D6B632 /* Hero.h */,
+				01A81027191A580C00D6B632 /* Enemy.cpp */,
+				01A81028191A580C00D6B632 /* Enemy.h */,
+				01A8102A191A773900D6B632 /* BulletHandler.cpp */,
+				01A8102B191A773900D6B632 /* BulletHandler.h */,
+				01A8102D191A7B3C00D6B632 /* Bullet.cpp */,
+				01A8102E191A7B3C00D6B632 /* Bullet.h */,
+				01A3C194191D09410056ABA8 /* Explosion.cpp */,
+				01A3C195191D09410056ABA8 /* Explosion.h */,
+			);
+			name = flyingStuff;
+			sourceTree = "<group>";
+		};
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				2F1B9D39FABC49299BEE7D24 /* Cinder-WebSocketPP */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				01A81020191A57B200D6B632 /* flyingStuff */,
+				01A810121919FD1400D6B632 /* ground */,
+				01A8100419176BC300D6B632 /* displaylist */,
+				B428D5C4AA7A438C8EBA23E0 /* PopGameApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* PopGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* PopGame */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = PopGame;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7F386431CF2445DCA1656246 /* Resources.h */,
+				E339F5DE74FF460A89C805E4 /* PopGame_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				968D611E984E4F8695084CAE /* CinderApp.icns */,
+				4BDD4D81BBFD47B488D8AF08 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F1B9D39FABC49299BEE7D24 /* Cinder-WebSocketPP */ = {
+			isa = PBXGroup;
+			children = (
+				D67AD8EC990341C588D89C74 /* src */,
+			);
+			name = "Cinder-WebSocketPP";
+			sourceTree = "<group>";
+		};
+		6346FB4B2A824B3885B787BE /* websocketpp */ = {
+			isa = PBXGroup;
+			children = (
+				F3CFFA461A044DE7B5BEFBC7 /* sha1 */,
+				FCD8401230D444C886EF4D53 /* client.hpp */,
+				0AC436EDD7EE47869F751701 /* close.hpp */,
+				95BECA9117E641E2A90DD04E /* common.hpp */,
+				AE908138BDE34204A3134907 /* connection.hpp */,
+				43F27C5B8EC54E5DB3F4DAE3 /* connection_base.hpp */,
+				E7047FC99A2A4DB7B7516A98 /* endpoint.hpp */,
+				53C86E3866A44D8590FDD0F9 /* endpoint_base.hpp */,
+				FC8BE0C496EB476EBB7414A7 /* error.hpp */,
+				51B718430A8C4A699944D79B /* error_container.hpp */,
+				3A4D66F043454C599767F0B1 /* frame.hpp */,
+				C8EA68AAB81A4897B0830611 /* server.hpp */,
+				D7E2C0289C5D4E5AB0C79AB7 /* uri.hpp */,
+				ABC78D4E49F245E185AE3C49 /* utf8_validator.hpp */,
+				3D21BE89D82443D6B3ED6F83 /* utilities.hpp */,
+				E3DC5CC40C1B4CA28794B417 /* base64 */,
+				936EF60CF7CC404C9A560A76 /* md5 */,
+			);
+			name = websocketpp;
+			sourceTree = "<group>";
+		};
+		936EF60CF7CC404C9A560A76 /* md5 */ = {
+			isa = PBXGroup;
+			children = (
+				CB0D73C8EC5441AAB8ED2071 /* md5.h */,
+			);
+			name = md5;
+			sourceTree = "<group>";
+		};
+		D67AD8EC990341C588D89C74 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DE88F55F1FD4460EB7C3F09E /* WebSocketClient.cpp */,
+				50FCE8B9273D4E1293DC92AE /* WebSocketConnection.cpp */,
+				C5FF53F45D7E46AB84559C6E /* WebSocketServer.cpp */,
+				6346FB4B2A824B3885B787BE /* websocketpp */,
+				95D4965E1BD941A3B96CCBD2 /* WebSocketClient.h */,
+				B567CE28E2E448D7A8521718 /* WebSocketConnection.h */,
+				B27FFD4C6D2B40798759E348 /* WebSocketServer.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		E3DC5CC40C1B4CA28794B417 /* base64 */ = {
+			isa = PBXGroup;
+			children = (
+				18C08BB2052841F09873336B /* base64.h */,
+			);
+			name = base64;
+			sourceTree = "<group>";
+		};
+		F3CFFA461A044DE7B5BEFBC7 /* sha1 */ = {
+			isa = PBXGroup;
+			children = (
+				93F8A35F8C034AA69343F65E /* sha1.cpp */,
+				462BAEACD7314DAEB4013D59 /* sha1.h */,
+			);
+			name = sha1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* PopGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PopGame" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopGame;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PopGame;
+			productReference = 8D1107320486CEB800E47090 /* PopGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PopGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* PopGame */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* PopGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2B74EF1FDC4087A41F3EC8 /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEECA5A89014A3096972254 /* PopGameApp.cpp in Sources */,
+				E28635DA0CD044269DEFA171 /* WebSocketClient.cpp in Sources */,
+				01A3C196191D09410056ABA8 /* Explosion.cpp in Sources */,
+				01A8101C191A27A200D6B632 /* Image2hD.cpp in Sources */,
+				01A81026191A57F700D6B632 /* Hero.cpp in Sources */,
+				01A8101119176E4800D6B632 /* TouchPoint.cpp in Sources */,
+				01A81032191AAB2200D6B632 /* GroundBase.cpp in Sources */,
+				E6D43678DEB844568793543C /* WebSocketConnection.cpp in Sources */,
+				01A810191919FE2E00D6B632 /* GroundTile.cpp in Sources */,
+				01A810161919FD6500D6B632 /* GroundHolder.cpp in Sources */,
+				01A8102C191A773900D6B632 /* BulletHandler.cpp in Sources */,
+				01A8100919176C1D00D6B632 /* Image.cpp in Sources */,
+				54405A4A506F4DA78E666C44 /* WebSocketServer.cpp in Sources */,
+				01A8100A19176C1D00D6B632 /* Sprite.cpp in Sources */,
+				01A8102F191A7B3C00D6B632 /* Bullet.cpp in Sources */,
+				D9D6C9591A244093BF9645E1 /* sha1.cpp in Sources */,
+				01A81029191A580C00D6B632 /* Enemy.cpp in Sources */,
+				01A81023191A57E800D6B632 /* Shootable.cpp in Sources */,
+				01A8100D19176D7900D6B632 /* TextureManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PopGame_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "\"../../../blocks/Cinder-WebSocketPP-master/lib/macosx\"";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder_d.a\"",
+					"\"../../../blocks/Cinder-WebSocketPP-master/lib/macosx/libboost_random.a\"",
+					"\"../../../blocks/Cinder-WebSocketPP-master/lib/macosx/libboost_regex.a\"",
+				);
+				PRODUCT_NAME = PopGame;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PopGame_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "\"../../../blocks/Cinder-WebSocketPP-master/lib/macosx\"";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder.a\"",
+					"\"../../../blocks/Cinder-WebSocketPP-master/lib/macosx/libboost_random.a\"",
+					"\"../../../blocks/Cinder-WebSocketPP-master/lib/macosx/libboost_regex.a\"",
+				);
+				PRODUCT_NAME = PopGame;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = i386;
+				CINDER_PATH = ../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include \"../../../blocks/Cinder-WebSocketPP-master/src\"";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = i386;
+				CINDER_PATH = ../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include \"../../../blocks/Cinder-WebSocketPP-master/src\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PopGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PopGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
