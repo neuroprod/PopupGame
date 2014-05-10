@@ -30,13 +30,14 @@ void Hero::update(float timeEllapsed)
     y =y+ speedY*timeEllapsed;
    
     
-    if(y<-280) {
+    if(y<-235) {
         speedY =0;
-        y=-280 ;
+        y=-235 ;
     };
     if(y>400) y=400;
     if(x<-550) x=-550;
     if(x>550) x=550;
+   // cout << y<<endl ;
     lastShoot -=timeEllapsed;
     
     if(isShoot)

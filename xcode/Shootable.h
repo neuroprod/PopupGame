@@ -13,7 +13,10 @@
 class Shootable: public neuro::Image2hD
 {
 public:
-    Shootable(){}
+    Shootable(){type=0;lives=1;}
    bool chekBulletHit(Vec2f &posB);
+    
+    int lives;
+    int type;
 };
 #endif /* defined(__PopGame__Shootable__) */

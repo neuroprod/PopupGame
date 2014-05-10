@@ -14,6 +14,7 @@ bool Shootable::chekBulletHit(Vec2f &posB)
     Vec2f pos =Vec2f(x.value(),y.value());
     if( pos.distanceSquared(posB)< 10000)
     {
+        lives--;
         alpha =0;
         return true;
     }

@@ -1,34 +1,34 @@
 dependencies: \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/Image.cpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/Image.h \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/Sprite.h \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Image.cpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Image.h \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Sprite.h \
   ../../../include/cinder/app/AppNative.h \
   ../../../include/cinder/Timeline.h \
   ../../../include/cinder/TimelineItem.h \
   ../../../include/cinder/Easing.h ../../../include/cinder/Tween.h \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/TouchEvent.h \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/TouchPoint.h \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/TouchEvent.h \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/TouchPoint.h \
   ../../../include/cinder/gl/Texture.h ../../../include/cinder/gl/Vbo.h \
   ../../../include/cinder/TriMesh.h \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/TextureManager.h \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/TextureManager.h \
   ../../../include/cinder/Utilities.h \
   ../../../boost/boost/lexical_cast.hpp \
   ../../../boost/boost/detail/lcast_precision.hpp \
   ../../../boost/boost/array.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/assert.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/functional/hash_fwd.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/assert.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/functional/hash_fwd.hpp \
   ../../../boost/boost/numeric/conversion/cast.hpp \
   ../../../boost/boost/numeric/conversion/converter.hpp \
   ../../../boost/boost/numeric/conversion/conversion_traits.hpp \
   ../../../boost/boost/numeric/conversion/detail/conversion_traits.hpp \
   ../../../boost/boost/numeric/conversion/detail/meta.hpp \
   ../../../boost/boost/mpl/equal_to.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/mpl/aux_/comparison_op.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/mpl/aux_/numeric_op.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/mpl/apply_wrap.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/mpl/aux_/include_preprocessed.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/preprocessor/cat.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/preprocessor/stringize.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/mpl/aux_/comparison_op.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/mpl/aux_/numeric_op.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/mpl/apply_wrap.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/mpl/aux_/include_preprocessed.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/preprocessor/cat.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/preprocessor/stringize.hpp \
   ../../../boost/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp \
   ../../../boost/boost/numeric/conversion/detail/int_float_mixture.hpp \
   ../../../boost/boost/numeric/conversion/int_float_mixture_enum.hpp \
@@ -48,16 +48,16 @@ dependencies: \
   ../../../boost/boost/numeric/conversion/bounds.hpp \
   ../../../boost/boost/numeric/conversion/detail/bounds.hpp \
   ../../../boost/boost/numeric/conversion/numeric_cast_traits.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/cstdint.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/cstdint.hpp \
   ../../../boost/boost/numeric/conversion/detail/numeric_cast_traits.hpp \
   ../../../boost/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp \
   ../../../boost/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp \
   ../../../boost/boost/type_traits/has_left_shift.hpp \
   ../../../boost/boost/type_traits/detail/has_binary_operator.hpp \
   ../../../boost/boost/type_traits/is_fundamental.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/type_traits/detail/bool_trait_def.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/type_traits/detail/template_arity_spec.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/type_traits/detail/bool_trait_undef.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/type_traits/detail/bool_trait_def.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/type_traits/detail/template_arity_spec.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/type_traits/detail/bool_trait_undef.hpp \
   ../../../boost/boost/type_traits/has_right_shift.hpp \
   ../../../boost/boost/math/special_functions/sign.hpp \
   ../../../boost/boost/math/tools/config.hpp \
@@ -72,10 +72,10 @@ dependencies: \
   ../../../boost/boost/mpl/aux_/contains_impl.hpp \
   ../../../boost/boost/mpl/find.hpp \
   ../../../boost/boost/mpl/remove_if.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/mpl/apply.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/mpl/apply.hpp \
   ../../../boost/boost/mpl/vector.hpp \
   ../../../boost/boost/mpl/limits/vector.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/preprocessor/inc.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/preprocessor/inc.hpp \
   ../../../boost/boost/mpl/vector/vector20.hpp \
   ../../../boost/boost/mpl/vector/vector10.hpp \
   ../../../boost/boost/mpl/vector/vector0.hpp \
@@ -133,5 +133,5 @@ dependencies: \
   ../../../boost/boost/integer/static_log2.hpp \
   ../../../boost/boost/functional/hash/extensions.hpp \
   ../../../boost/boost/detail/container_fwd.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/preprocessor/repetition/repeat_from_to.hpp \
-  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/../../../boost/boost/preprocessor/repetition/enum_params.hpp
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/preprocessor/repetition/repeat_from_to.hpp \
+  /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/../../../boost/boost/preprocessor/repetition/enum_params.hpp

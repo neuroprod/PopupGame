@@ -12,6 +12,7 @@
 		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
 		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		016BC121191E39E6003276FE /* EnemyHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 016BC11F191E39E6003276FE /* EnemyHandler.cpp */; };
 		01A3C196191D09410056ABA8 /* Explosion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A3C194191D09410056ABA8 /* Explosion.cpp */; };
 		01A8100919176C1D00D6B632 /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A8100519176C1D00D6B632 /* Image.cpp */; };
 		01A8100A19176C1D00D6B632 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A8100719176C1D00D6B632 /* Sprite.cpp */; };
@@ -43,6 +44,8 @@
 		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		016BC11F191E39E6003276FE /* EnemyHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyHandler.cpp; sourceTree = "<group>"; };
+		016BC120191E39E6003276FE /* EnemyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyHandler.h; sourceTree = "<group>"; };
 		01A3C194191D09410056ABA8 /* Explosion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Explosion.cpp; sourceTree = "<group>"; };
 		01A3C195191D09410056ABA8 /* Explosion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
 		01A8100519176C1D00D6B632 /* Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Image.cpp; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				01A8102E191A7B3C00D6B632 /* Bullet.h */,
 				01A3C194191D09410056ABA8 /* Explosion.cpp */,
 				01A3C195191D09410056ABA8 /* Explosion.h */,
+				016BC11F191E39E6003276FE /* EnemyHandler.cpp */,
+				016BC120191E39E6003276FE /* EnemyHandler.h */,
 			);
 			name = flyingStuff;
 			sourceTree = "<group>";
@@ -416,6 +421,7 @@
 				01A8102C191A773900D6B632 /* BulletHandler.cpp in Sources */,
 				01A8100919176C1D00D6B632 /* Image.cpp in Sources */,
 				54405A4A506F4DA78E666C44 /* WebSocketServer.cpp in Sources */,
+				016BC121191E39E6003276FE /* EnemyHandler.cpp in Sources */,
 				01A8100A19176C1D00D6B632 /* Sprite.cpp in Sources */,
 				01A8102F191A7B3C00D6B632 /* Bullet.cpp in Sources */,
 				D9D6C9591A244093BF9645E1 /* sha1.cpp in Sources */,

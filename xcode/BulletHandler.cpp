@@ -34,7 +34,7 @@ void BulletHandler::shootBullet(float x, float y, float z, bool isHero )
     stage->addChild(b);
     bullets.push_back(b);
 }
-void BulletHandler::update(double timeEllapsed, Enemy * en)
+void BulletHandler::update(double timeEllapsed)
 {
    
     
@@ -46,13 +46,18 @@ void BulletHandler::update(double timeEllapsed, Enemy * en)
             bulletBuffer.push_back(bullets[i]);
             stage->removeChild(bullets[i]);
             bullets.erase (bullets.begin()+i);
-            
+           
+            continue;
         }
         bullets[i]->y =bullets[i]->y +1400*timeEllapsed;
         
         Vec2f posB = Vec2f(bullets[i]->x ,bullets[i]->y );
-        if(en->alpha !=0)
+        
+        
+        for(int j=0;j<enemyHandler->enemys.size();j++)
         {
+        
+            Enemy * en  =enemyHandler->enemys[j];
             if(en->chekBulletHit(posB))
             {
                 
@@ -61,10 +66,12 @@ void BulletHandler::update(double timeEllapsed, Enemy * en)
                   stage->removeChild(bullets[i]);
                 bulletBuffer.push_back(bullets[i]);
                 bullets.erase (bullets.begin()+i);
-                
+               
+                break;
         
             };
         }
+    
     }
     for(int i=0;i< explosions.size();i++)
     {

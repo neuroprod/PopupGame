@@ -16,11 +16,14 @@ class Enemy: public Shootable
 public:
     Enemy()
     {
-    
+        type=1;
     
     }
-    
-    
+    void setup(int type);
+    void reset(float posX, float posY);
+    void update(float timeEllapsed);
+    float xStart;
+    float time ;
 };
 
 #endif /* defined(__PopGame__Enemy__) */

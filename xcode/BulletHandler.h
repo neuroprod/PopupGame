@@ -15,7 +15,7 @@
 #include "Bullet.h"
 #include "Enemy.h"
 #include "Explosion.h"
-
+#include  "EnemyHandler.h"
 class BulletHandler
 {
 
@@ -27,7 +27,7 @@ public:
     static BulletHandler* instance;
     neuro::Sprite * stage;
     
-    void update(double timeEllapsed,Enemy *);
+    void update(double timeEllapsed);
     
     void showExplosion(Shootable *);
     
@@ -36,6 +36,9 @@ public:
     
     vector<Explosion *> explosions;
     vector<Explosion *> explosionBuffer;
+    
+    EnemyHandler * enemyHandler;
+    
 };
 
 #endif /* defined(__PopGame__BulletHandler__) */

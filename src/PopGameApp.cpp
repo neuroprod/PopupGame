@@ -16,6 +16,9 @@
 #include "Hero.h"
 #include "Enemy.h"
 #include "BulletHandler.h"
+
+#include "EnemyHandler.h"
+
 using namespace ci;
 using namespace ci::app;
 using namespace std;
@@ -33,11 +36,10 @@ class PopGameApp : public AppNative {
     CameraPersp			*mCamera;
     
     Sprite stage;
-  
+   Sprite stage2D;
     Hero *plane;
      Enemy *plane2;
-    
-    Image2hD *logo;
+    Image *logo;
     
     gl::GlslProg		mShader;
     gl::Fbo				mDepthFbo;
@@ -46,7 +48,7 @@ class PopGameApp : public AppNative {
 	void updateShadowMap();
     
     
-    
+    EnemyHandler enemyHandler;
     GroundHolder groundHolder;
     double prevTime;
     
@@ -66,6 +68,7 @@ void PopGameApp::setup()
     
     speed2 =3.5;
     setWindowSize(1920,1080);
+    //setWindowSize(1080/2,1920/2);
     setWindowPos(0, 0);
 	mCamera = new CameraPersp( getWindowWidth(), getWindowHeight(), 45.0f );
 	mCamera->lookAt( Vec3f( 0, -300, -400 ), Vec3f( 0, 0, 50 ) );
@@ -96,6 +99,11 @@ void PopGameApp::setup()
     groundHolder.setup();
     stage.addChild(&groundHolder);
     
+    enemyHandler.setup();
+    stage.addChild(&enemyHandler);
+    BulletHandler::getInstance()->enemyHandler =&enemyHandler;
+   
+    
     
     
     plane =new Hero();
@@ -106,14 +114,7 @@ void PopGameApp::setup()
    
    
     
-    
-    
-    plane2 =new Enemy();
-    plane2->load("plane2.png","plane2h.png");
-    plane2->setAlign(neuro::ALIGN_CENTER);
-   
-    plane2->z = 0;
-    stage.addChild(plane2);
+ 
     
      stage.addChild(plane);
     prevTime = cinder::app::getElapsedSeconds();
@@ -121,14 +122,15 @@ void PopGameApp::setup()
     BulletHandler::getInstance()->stage =&stage;
     
     
-    logo =new Image2hD();
-    logo->load("logo.png", "logoh.png");
-    logo->rotationX =-3.1415/6;
-    //logo->rotationY =-3.1415/20;
-    logo->x =-465;
-    logo->y =-330;
-    logo->scaleX =logo->scaleY =logo->scaleZ =4;
-    //stage.addChild(logo);
+    logo =new Image();
+    logo->load("logo.png");
+  // logo->rotationX =-3.1415;
+    logo->setAlign(neuro::ALIGN_BOTTOM_LEFT);
+    logo->x =0;
+    logo->y =1080*2;
+    //logo->scaleX =logo->scaleY =logo->scaleZ =4;
+    stage2D.scaleX=stage2D.scaleY =0.5;
+    stage2D.addChild(logo);
     
 }
 void PopGameApp::initShadowMap()
@@ -181,31 +183,14 @@ void PopGameApp::update()
     
     
     groundHolder.updatePos(100);
+    enemyHandler.update(timeElapsed);
     
-    plane2->x = plane2->x +speed2;
-   
   
-    
-    plane2->y = plane2->y -20;
-    if(plane2->y<-400){
-        plane2->y=plane2->y+3000;
-        plane2->alpha =1;
-    }
-    if(speed2<0)
-    {
-        plane2->rotationY =plane2->rotationY +(0.3-plane2->rotationY )/10;
-    }else
-    {
-        plane2->rotationY =plane2->rotationY +(-0.3-plane2->rotationY )/10;
-        
-    }
-     if(plane2->x>500|| plane2->x<-100)speed2*=-1;
-    
-    BulletHandler::getInstance()->update(timeElapsed, plane2);
+   BulletHandler::getInstance()->update(timeElapsed);
     
     
     stage.int_update(timeElapsed );
-  
+    stage2D.int_update(timeElapsed);
 
 }
 void PopGameApp::keyDown(KeyEvent event)
@@ -262,7 +247,10 @@ void PopGameApp::keyUp(KeyEvent event)
 }
 void PopGameApp::draw()
 {
-  
+    gl::pushMatrices();
+    
+    
+    gl::setMatrices( *mCamera );
     gl::enable(GL_DEPTH_TEST);
    
     gl::clear(ColorA(0.5,0.5,0.5,1));
@@ -284,12 +272,27 @@ void PopGameApp::draw()
 	mShader.uniform( "shadowTransMatrix", mLight->getShadowTransformationMatrix( *mCamera ) );
     //gl::enable(GL_BLEND);
   	mLight->update( *mCamera );
-    gl::setMatrices( *mCamera );
+    
     gl::pushMatrices();
     stage.int_draw();
     gl::popMatrices();
+    
+    
+    
+    gl::popMatrices();
+   // gl::setMatrices( *mCamera );
+    
     mShader.unbind();
     
+    gl::disable (GL_DEPTH_TEST);
+glDisable( GL_LIGHTING );
+    glDisable (GL_ALPHA_TEST);
+   glEnable(GL_BLEND);
+    gl::enableAlphaBlending();
+    
+    stage2D.int_draw();
+    glDisable(GL_BLEND);
+    gl::disableAlphaBlending();
     
    
     
