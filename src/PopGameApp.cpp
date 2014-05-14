@@ -247,6 +247,8 @@ void PopGameApp::keyUp(KeyEvent event)
 }
 void PopGameApp::draw()
 {
+    if(getElapsedFrames()>200)return;
+    
     gl::pushMatrices();
     
     
@@ -308,3 +310,4 @@ glDisable( GL_LIGHTING );
 }
 
 CINDER_APP_NATIVE( PopGameApp, RendererGl )
+

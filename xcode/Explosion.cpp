@@ -14,7 +14,7 @@ void Explosion::setup()
     for(int i=1;i<11;i++)
     {
         neuro::Image *im =new neuro::Image();
-        im->isAdditiveBlending =true;
+       // im->isAdditiveBlending =true;
         
         string file ="explosion" + toString(i)+".png";
         im->load(file);
@@ -26,7 +26,7 @@ void Explosion::setup()
     }
     
   
-    rotationX = -3.1415/2;
+   // rotationX = -3.1415/2;
     
     reset();
 }

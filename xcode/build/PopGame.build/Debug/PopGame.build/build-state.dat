@@ -7820,9 +7820,9 @@ t1399272091
 s459637
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp
-c00000000536E32A1000000000000198E
-t1399730849
-s6542
+c00000000537316E600000000000019BA
+t1400051430
+s6586
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Bullet.cpp
 c00000000536C9B6400000000000000E1
@@ -7865,9 +7865,9 @@ t1399720376
 s569
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Explosion.cpp
-c00000000536CE1E900000000000003F4
-t1399644649
-s1012
+c00000000536E3C1D00000000000003F8
+t1399733277
+s1016
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Explosion.h
 c00000000536CDD7800000000000001C8
@@ -7990,7 +7990,7 @@ t1397585738
 s557
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app
-t1399731703
+t1400051432
 s102
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app/Contents/Info.plist
@@ -7998,8 +7998,8 @@ t1399273080
 s1481
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app/Contents/MacOS/PopGame
-t1399731768
-s3605000
+t1400051432
+s3605144
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app/Contents/PkgInfo
 t1399273080
@@ -8026,8 +8026,8 @@ t1399724054
 s697892
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.o
-t1399648360
-s757504
+t1399733278
+s757416
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/GroundBase.o
 t1399648360
@@ -8059,8 +8059,8 @@ t1399719376
 s2676
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.o
-t1399730850
-s2475096
+t1400051431
+s2475464
 
 N/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Shootable.o
 t1399724583
@@ -8212,7 +8212,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies971d9eb66d1eb941^ef599fb66d1eb941^---0#1#1#--18"Check dependencies36"A9430DDE-1524-4079-B629-D00D4A1A3437-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1475fabc8723b941^31cffabc8723b941^---0#1#1#--18"Check dependencies36"81404549-196E-47F9-9940-95F9B43D3AE7-
 
 CCompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Bullet.o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/Bullet.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s421336001.792639
@@ -8568,8 +8568,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile
 b700DA60B-AFE9-47F4-9FA4-5881D987BCC4
 
 CCompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Explosion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s421341157.833110
-e421341160.028436
+s421426077.403974
+e421426078.651569
 r1
 xCompileC
 xbuild/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.o
@@ -8706,8 +8706,8 @@ d/Users/kris/Documents/cinder_0.8.5_mac/boost/boost/detail/endian.hpp
 d/Users/kris/Documents/cinder_0.8.5_mac/boost/boost/math/special_functions/fpclassify.hpp
 d/Users/kris/Documents/cinder_0.8.5_mac/boost/boost/math/tools/real_cast.hpp
 d/Users/kris/Documents/cinder_0.8.5_mac/boost/boost/container/container_fwd.hpp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Explosion.cpp154"CompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.o Explosion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler295ad5e5271db941^d28a07e8271db941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Explosion.cpp0000000000000000^2642"CompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.o Explosion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/PopGame.hmap -I../../../include -I../include -I../../../blocks/Cinder-WebSocketPP-master/src -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/include -I../../../boost -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/DerivedSources/i386 -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/DerivedSources -F/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug -include /var/folders/w9/7zvdqmc17dl422tb88t5sc2r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/PopGame_Prefix-dwtdrwciaorikwbswpuqwtwqqlmv/PopGame_Prefix.pch -MMD -MT dependencies -MF /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.d --serialize-diagnostics /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.dia -c /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Explosion.cpp -o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.o36"9F439C1F-8F87-42BF-A45A-8337AC2F40E8-
-b17D8D155-F9B9-44C9-893E-E0705DB0145B
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Explosion.cpp154"CompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.o Explosion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler9e7b679d731eb941^7653aa9e731eb941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Explosion.cpp0000000000000000^2642"CompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.o Explosion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/PopGame.hmap -I../../../include -I../include -I../../../blocks/Cinder-WebSocketPP-master/src -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/include -I../../../boost -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/DerivedSources/i386 -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/DerivedSources -F/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug -include /var/folders/w9/7zvdqmc17dl422tb88t5sc2r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/PopGame_Prefix-dwtdrwciaorikwbswpuqwtwqqlmv/PopGame_Prefix.pch -MMD -MT dependencies -MF /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.d --serialize-diagnostics /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.dia -c /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Explosion.cpp -o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Explosion.o36"02EBEEAC-C6C2-4492-8BFB-EE6B49A290CE-
+bC88B34D3-283E-4DA9-B979-0D00E9FF8CD8
 
 CCompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/FlightStuff.o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/FlightStuff.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
@@ -9862,8 +9862,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile
 bB6E6EECA-00C5-467D-99D3-4125F32CFF59
 
 CCompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s421423649.530785
-e421423650.939936
+s421744230.340302
+e421744231.735873
 r1
 xCompileC
 xbuild/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.o
@@ -9903,8 +9903,8 @@ d/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/BulletHandler.h
 d/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Bullet.h
 d/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/Explosion.h
 d/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/EnemyHandler.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp215"CompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerc7f187216a1eb941^f5a0f0226a1eb941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp0000000000000000^2705"CompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/PopGame.hmap -I../../../include -I../include -I../../../blocks/Cinder-WebSocketPP-master/src -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/include -I../../../boost -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/DerivedSources/i386 -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/DerivedSources -F/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug -include /var/folders/w9/7zvdqmc17dl422tb88t5sc2r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/PopGame_Prefix-dwtdrwciaorikwbswpuqwtwqqlmv/PopGame_Prefix.pch -MMD -MT dependencies -MF /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.d --serialize-diagnostics /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.dia -c /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp -o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.o36"6C51446D-77C4-4422-8A64-CC3136A0B2D5-
-bABE9313A-9116-4FD1-A162-BE7C3B03B91B
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp215"CompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler6a2e57664e23b941^8d63bc674e23b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp0000000000000000^2705"CompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/PopGame.hmap -I../../../include -I../include -I../../../blocks/Cinder-WebSocketPP-master/src -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/include -I../../../boost -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/DerivedSources/i386 -I/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/DerivedSources -F/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug -include /var/folders/w9/7zvdqmc17dl422tb88t5sc2r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/PopGame_Prefix-dwtdrwciaorikwbswpuqwtwqqlmv/PopGame_Prefix.pch -MMD -MT dependencies -MF /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.d --serialize-diagnostics /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.dia -c /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/src/PopGameApp.cpp -o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGameApp.o36"A9A655C8-25DF-4ED5-888F-CD271F835C96-
+bB9C6EA20-378B-4430-BBAA-196D29BF97DC
 
 CCompileC build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/Shootable.o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/Shootable.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s421338266.332219
@@ -11762,8 +11762,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /
 b9FA4F89A-8B4C-4E68-9E61-D269004488A5
 
 CLd /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app/Contents/MacOS/PopGame normal i386
-s421424567.695504
-e421424568.304606
+s421744231.737962
+e421744232.345563
 r1
 xLd
 x/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app/Contents/MacOS/PopGame
@@ -11868,8 +11868,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app/Contents/MacOS/PopGame61"Ld build/Debug/PopGame.app/Contents/MacOS/PopGame normal i3868b18b2b76d1eb941^50fb4db86d1eb941^---0#0#1#--1424"Ld build/Debug/PopGame.app/Contents/MacOS/PopGame normal i386    cd /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug -L../../../blocks/Cinder-WebSocketPP-master/lib/macosx -F/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug -filelist /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGame.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../lib/libcinder_d.a ../../../blocks/Cinder-WebSocketPP-master/lib/macosx/libboost_random.a ../../../blocks/Cinder-WebSocketPP-master/lib/macosx/libboost_regex.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGame_dependency_info.dat -o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app/Contents/MacOS/PopGame36"DCC249C1-5452-462D-8F07-6CC8F21AFD33-
-b15729394-701F-4CDA-85D6-EC0647888DC3
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app/Contents/MacOS/PopGame61"Ld build/Debug/PopGame.app/Contents/MacOS/PopGame normal i3865af6bc674e23b941^ea7858684e23b941^---0#0#1#--1424"Ld build/Debug/PopGame.app/Contents/MacOS/PopGame normal i386    cd /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug -L../../../blocks/Cinder-WebSocketPP-master/lib/macosx -F/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug -filelist /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGame.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../lib/libcinder_d.a ../../../blocks/Cinder-WebSocketPP-master/lib/macosx/libboost_random.a ../../../blocks/Cinder-WebSocketPP-master/lib/macosx/libboost_regex.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/PopGame.build/Debug/PopGame.build/Objects-normal/i386/PopGame_dependency_info.dat -o /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app/Contents/MacOS/PopGame36"E025642D-C6AF-4D10-9804-A0E7299CE748-
+bB9C6EA20-378B-4430-BBAA-196D29BF97DC
 
 CProcessInfoPlistFile /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/build/Debug/PopGame.app/Contents/Info.plist /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopGame/xcode/Info.plist
 s420965880.154153
@@ -13512,11 +13512,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Touch /
 b9FA4F89A-8B4C-4E68-9E61-D269004488A5
 
 CTouch /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app
-s421424568.305467
-e421424568.308383
+s421744232.346365
+e421744232.349353
 r1
 xTouch
 x/Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app29"Touch build/Debug/PopGame.app693b4eb86d1eb941^2cf34eb86d1eb941^---0#0#1#--205"Touch build/Debug/PopGame.app    cd /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode    /usr/bin/touch -c /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app36"504D0CDC-8E84-4579-A798-5E8ADE5C1A66-
-b15729394-701F-4CDA-85D6-EC0647888DC3
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app29"Touch build/Debug/PopGame.app03b558684e23b941^937059684e23b941^---0#0#1#--205"Touch build/Debug/PopGame.app    cd /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode    /usr/bin/touch -c /Users/kris/Documents/cinder_0.8.5_mac/neuro/PopupGame/xcode/build/Debug/PopGame.app36"743BA726-3BF5-4FB2-80E7-DD4B34E2962C-
+bB9C6EA20-378B-4430-BBAA-196D29BF97DC
 
